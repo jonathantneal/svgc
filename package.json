@@ -1,0 +1,40 @@
+{
+  "name": "svgc",
+  "version": "1.0.0",
+  "description": "Convert SVG spritemaps into CSS stylesheets",
+  "main": "cli.js",
+  "preferGlobal": true,
+  "dependencies": {
+    "fs-promise": "^0.4.1",
+    "xmldoc": "^0.4.0"
+  },
+  "bin": {
+    "svgc": "./cli.js",
+    "svg-colormap": "./cli.js"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "repository": "jonathantneal/svgc",
+  "keywords": [
+    "css",
+    "styles",
+    "stylesheets",
+    "svgs",
+    "scalable",
+    "vectors",
+    "images",
+    "graphics",
+    "fragments",
+    "identifiers",
+    "ids",
+    "hashes",
+    "urls",
+    "utf8",
+    "base64"
+  ],
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
+  "license": "CC0-1.0",
+  "bugs": "https://github.com/jonathantneal/svgc/issues",
+  "homepage": "https://github.com/jonathantneal/svgc#readme"
+}
